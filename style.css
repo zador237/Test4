@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+background: #010a11;
+color:white;
+font-family: "Nunito", sans-serif;
+}
+
+.navBar{
+    display: flex;
+    gap:60px;
+    justify-content: center;
+
+
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+a:hover{
+    background-color: #011d34;
+
+}
+
+.main-container{
+    display: flex;
+    gap:40px;
+   justify-content: center;
+    margin-top: 120px;
+
+
+}
+section{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+button{
+    width: 200px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border:2px solid;
+    border-color:#399918;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h2{
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    margin: 15px 0;
+}
+section p{
+    line-height: 1.5rem;
+}
+span{
+    color:#399918;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+    margin-top: 100px;
+  
+}
+.content p{
+    width: 856px;
+}
+ul li{
+    list-style: none;
+    margin: 10px 0;
+    padding: 15px;
+}
+ul li:hover{
+    background-color: #02243f;
+    
+    cursor: pointer;
+}
+ul{
+    padding: 0;
+}
+.content h1, .content h2{
+    color: #399918;
+}
